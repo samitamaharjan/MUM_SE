@@ -3675,7 +3675,7 @@
 									"left": 0,
 									"top": 0,
 									"width": 732,
-									"height": 628,
+									"height": 457,
 									"autoResize": false,
 									"nameLabel": {
 										"$ref": "AAAAAAFhEUX9n3zd2mk="
@@ -4545,7 +4545,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": ": facultyDBInt",
+													"text": ": DBInt",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -5710,6 +5710,53 @@
 									},
 									"showProperty": true,
 									"showType": true
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAFhF1Q1BbV2ZWc=",
+									"_parent": {
+										"$ref": "AAAAAAFhEUX9n3zb5oU="
+									},
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 480,
+									"top": 208,
+									"width": 89,
+									"height": 56,
+									"autoResize": false,
+									"text": "return faculty object",
+									"wordWrap": true
+								},
+								{
+									"_type": "UMLNoteLinkView",
+									"_id": "AAAAAAFhF1SQ/bV70PE=",
+									"_parent": {
+										"$ref": "AAAAAAFhEUX9n3zb5oU="
+									},
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"head": {
+										"$ref": "AAAAAAFhE8zORBEoMGs="
+									},
+									"tail": {
+										"$ref": "AAAAAAFhF1Q1BbV2ZWc="
+									},
+									"lineStyle": 1,
+									"points": "490:207;453:176"
 								}
 							],
 							"showSequenceNumber": true,
@@ -5868,7 +5915,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhEUX9nnzaHus="
 							},
-							"name": ": facultyDBInt",
+							"name": ": DBInt",
 							"stereotype": "Boundary",
 							"visibility": "public",
 							"represent": {

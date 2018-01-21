@@ -3675,7 +3675,7 @@
 									"left": 0,
 									"top": 0,
 									"width": 732,
-									"height": 628,
+									"height": 449,
 									"autoResize": false,
 									"nameLabel": {
 										"$ref": "AAAAAAFhEUX9n3zd2mk="
@@ -4545,7 +4545,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": ": facultyDBInt",
+													"text": ": DBInt",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -6604,7 +6604,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhEUX9nnzaHus="
 							},
-							"name": ": facultyDBInt",
+							"name": ": DBInt",
 							"stereotype": "Boundary",
 							"visibility": "public",
 							"represent": {
