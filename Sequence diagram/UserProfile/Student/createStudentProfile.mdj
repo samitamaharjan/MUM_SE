@@ -1015,7 +1015,7 @@
 													"height": 13,
 													"autoResize": false,
 													"underline": false,
-													"text": "StudentDBInt",
+													"text": "DBInt",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -1343,9 +1343,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 193,
+											"left": 184,
 											"top": 136,
-											"width": 81.65625,
+											"width": 99.0107421875,
 											"height": 13,
 											"autoResize": false,
 											"alpha": 1.5707963267948966,
@@ -1355,7 +1355,7 @@
 											},
 											"edgePosition": 1,
 											"underline": false,
-											"text": "2 : create new",
+											"text": "2 : createStudent",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -1844,9 +1844,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 343,
+											"left": 359,
 											"top": 192,
-											"width": 93.9453125,
+											"width": 61.4072265625,
 											"height": 13,
 											"autoResize": false,
 											"alpha": 1.4981958862179676,
@@ -1856,7 +1856,7 @@
 											},
 											"edgePosition": 1,
 											"underline": false,
-											"text": "5 : if(not unique)",
+											"text": "5 : if exists",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -3215,7 +3215,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhEKvlcHcvAlQ="
 							},
-							"name": "create new",
+							"name": "createStudent",
 							"source": {
 								"$ref": "AAAAAAFhEMkTCNYXuYE="
 							},
@@ -3267,7 +3267,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhEKvlcHcvAlQ="
 							},
-							"name": "if",
+							"name": "if exists",
 							"source": {
 								"$ref": "AAAAAAFhEMoXDtY9X6I="
 							},
@@ -3276,7 +3276,6 @@
 							},
 							"visibility": "public",
 							"messageSort": "synchCall",
-							"arguments": "not unique",
 							"isConcurrentIteration": false
 						},
 						{
@@ -3446,7 +3445,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhEKvlcHcvAlQ="
 							},
-							"name": "StudentDBInt",
+							"name": "DBInt",
 							"stereotype": "Boundary",
 							"visibility": "public",
 							"represent": {
